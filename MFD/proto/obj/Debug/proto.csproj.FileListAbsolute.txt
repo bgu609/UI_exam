@@ -18,3 +18,4 @@ D:\DEV\STUDY\UI_exam\MFD\proto\obj\Debug\Views\RadarView.g.cs
 D:\DEV\STUDY\UI_exam\MFD\proto\obj\Debug\Views\ConningView.baml
 D:\DEV\STUDY\UI_exam\MFD\proto\obj\Debug\Views\ECSView.baml
 D:\DEV\STUDY\UI_exam\MFD\proto\obj\Debug\Views\RadarView.baml
+D:\DEV\STUDY\UI_exam\MFD\proto\obj\Debug\proto.csprojAssemblyReference.cache

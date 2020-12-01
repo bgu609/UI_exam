@@ -1,6 +1,4 @@
-﻿using System;
-using System.Windows;
-using System.Windows.Input;
+﻿using System.Windows.Input;
 
 namespace proto.ViewModels
 {
@@ -19,15 +17,18 @@ namespace proto.ViewModels
 
         public void RadarClick()
         {
-            MessageBox.Show("radar click");
+            Views.RadarView radarView = new Views.RadarView();
+            radarView.Show();
         }
         public void ECSClick()
         {
-            MessageBox.Show("ECS click");
+            Views.ECSView ecsView = new Views.ECSView();
+            ecsView.Show();
         }
         public void ConningClick()
         {
-            MessageBox.Show("Conning click");
+            Views.ConningView conningView = new Views.ConningView();
+            conningView.Show();
         }
 
         /*public bool IsClick()
