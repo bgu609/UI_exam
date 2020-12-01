@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using proto.ViewModels;
 
 namespace proto.Views
 {
@@ -10,6 +11,12 @@ namespace proto.Views
         public RadarView()
         {
             InitializeComponent();
+            this.DataContext = new RadarViewModel();
+        }
+
+        private void Window_Closed(object sender, System.EventArgs e)
+        {
+            
         }
     }
 }

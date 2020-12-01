@@ -4,6 +4,10 @@ namespace proto.ViewModels
 {
     public class MainViewModel : ViewModelBase
     {
+        public bool radarstate = false;
+        public bool ecsstate = false;
+        public bool conningstate = false;
+
         ICommand rclickCommand, eclickCommand, cclickCommand;
         public ICommand RadarClickCommand => rclickCommand ?? (rclickCommand = new RelayCommand<object>(
                 o => RadarClick()
