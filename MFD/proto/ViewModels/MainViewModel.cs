@@ -22,17 +22,17 @@ namespace proto.ViewModels
         public void RadarClick()
         {
             Views.RadarView radarView = new Views.RadarView();
-            radarView.Show();
+            radarView.ShowDialog();
         }
         public void ECSClick()
         {
             Views.ECSView ecsView = new Views.ECSView();
-            ecsView.Show();
+            ecsView.ShowDialog();
         }
         public void ConningClick()
         {
             Views.ConningView conningView = new Views.ConningView();
-            conningView.Show();
+            conningView.ShowDialog();
         }
 
         /*public bool IsClick()
