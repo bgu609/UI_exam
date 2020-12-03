@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:proto.Views"
         mc:Ignorable="d"
         Title="RadarView" Height="690" Width="1224"
-        Background="Black" HorizontalAlignment="Center" VerticalAlignment="Center">
+        Background="Black"  WindowStartupLocation="Manual" Left="300" Top="150">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="0"/>
