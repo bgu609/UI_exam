@@ -5,9 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:proto.Views"
         mc:Ignorable="d"
-        Title="RadarView" Height="450" Width="800"
-        Background="Black" Closed="Window_Closed">
+        Title="RadarView" Height="690" Width="1224"
+        Background="Black" HorizontalAlignment="Center" VerticalAlignment="Center">
     <Grid>
-        <TextBlock Text="Radar" FontSize="30" Foreground="AntiqueWhite" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Image Source="{Binding RadarPath}"/>
+        </Grid>
     </Grid>
 </Window>

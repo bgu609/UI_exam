@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using proto.ViewModels;
 
 namespace proto.Views
 {
@@ -10,6 +11,7 @@ namespace proto.Views
         public ECSView()
         {
             InitializeComponent();
+            this.DataContext = new ECSViewModel();
         }
     }
 }

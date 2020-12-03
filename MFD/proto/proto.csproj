@@ -55,6 +55,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ViewModels\ConningViewModel.cs" />
+    <Compile Include="ViewModels\ECSViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\RadarViewModel.cs" />
     <Compile Include="ViewModels\RelayCommand.cs" />
@@ -120,8 +122,20 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Helpers\" />
+    <Folder Include="Commons\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\radarmain00.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\ecsmain00.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\seaimage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\conningmain00.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

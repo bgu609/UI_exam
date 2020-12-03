@@ -8,6 +8,18 @@ namespace proto.ViewModels
         public bool ecsstate = false;
         public bool conningstate = false;
 
+        private string _MFDmain = "/Resources/seaimage.jpg";
+        public string MFDmain
+        {
+            get { return _MFDmain; }
+            set
+            {
+                _MFDmain = value;
+                RaisePropertyChanged(MFDmain);
+            }
+        }
+
+
         ICommand rclickCommand, eclickCommand, cclickCommand;
         public ICommand RadarClickCommand => rclickCommand ?? (rclickCommand = new RelayCommand<object>(
                 o => RadarClick()

@@ -13,10 +13,5 @@ namespace proto.Views
             InitializeComponent();
             this.DataContext = new RadarViewModel();
         }
-
-        private void Window_Closed(object sender, System.EventArgs e)
-        {
-            
-        }
     }
 }
